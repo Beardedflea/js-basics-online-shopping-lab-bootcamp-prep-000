@@ -49,7 +49,7 @@ function total() {
 }
 
 function removeFromCart(item) {
- 
+ cart.every(isBelowThreshold)
 }
 
 function placeOrder(cardNumber) {
