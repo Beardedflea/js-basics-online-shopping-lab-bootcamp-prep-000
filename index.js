@@ -56,11 +56,10 @@ function removeFromCart(item) {
   if(cart.every === item){
     for(i = 0; i < cart.length; i++){
       if(getCart()[i].itemName === item){
-        cart.splice(i,1, 'yams');
         break;
       }
     }
-    return cart;
+    return cart.splice(i,1, 'yams');
   }
 }
 
