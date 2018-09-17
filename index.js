@@ -49,7 +49,7 @@ function total() {
 }
 
 function removeFromCart(item) {
- cart.every( getCart()[].itemPrice === item);
+ cart.every( getCart().itemPrice === item);
 }
 
 function placeOrder(cardNumber) {
