@@ -28,10 +28,7 @@ function viewCart() {
      
       for(i = 0; i < cart.length; i++){
         cartList += `${getCart()[i].itemName} at ${getCart()[i].itemPrice}, `;
-        if(i === length){
-          break;
-          }
-        }
+        
     case 2 :
       cartList += `${getCart()[i].itemName} at $${getCart()[i].itemPrice}, and `;
       i++;
