@@ -60,7 +60,7 @@ function removeFromCart(item) {
         break;
       }
     }
-        return cart;
+    return cart;
   }
 }
 
