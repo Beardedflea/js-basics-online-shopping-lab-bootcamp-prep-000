@@ -49,8 +49,6 @@ function total() {
 }
 
 function removeFromCart(item) {
- cart.every( getCart().itemPrice === item);
-  if (cart.every = false)
 }
 
 function placeOrder(cardNumber) {
