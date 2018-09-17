@@ -24,8 +24,8 @@ function viewCart() {
   let i = 0;
   switch(cart.length){
     default:
-        cartList += `${getCart()[i].itemName} at $${getCart()[i].itemPrice}, `;
-        i++;
+      cartList += `${getCart()[i].itemName} at $${getCart()[i].itemPrice}, `;
+      i++;
     case 2 :
       cartList += `${getCart()[i].itemName} at $${getCart()[i].itemPrice}, and `;
       i++;
