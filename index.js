@@ -49,7 +49,9 @@ function total() {
 }
 
 function removeFromCart(item) {
-  cart.every()
+  if (cart.every(cart[] != item){
+    
+  }
     }
   }
 }
