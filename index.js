@@ -56,7 +56,6 @@ function removeFromCart(item) {
   else{
     for(i = 0; i < cart.length; i++){
       if(getCart()[i].itemName === item){
-        console.log("willy");
         break;
       }
     }
