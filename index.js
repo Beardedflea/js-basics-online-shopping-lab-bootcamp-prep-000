@@ -56,7 +56,7 @@ function removeFromCart(item){
         }
       }
     if(badItem){
-      let i = cart.indexOf(badItem);
+      let j = getCart.indexOf(badItem);
       return getCart().splice(i,1);
       }
     else{
