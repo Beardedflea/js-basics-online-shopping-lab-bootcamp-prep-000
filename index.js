@@ -55,7 +55,9 @@ function removeFromCart(item){
         badItem = getCart()[i]
         }
       }
-    if{
+    if(badItem){
+      }
+    else{
       return `That item is not in your cart.`;
     }
 }
