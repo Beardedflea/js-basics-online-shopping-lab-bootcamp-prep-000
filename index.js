@@ -49,7 +49,8 @@ function total() {
 }
 
 function removeFromCart(item) {
-  let i;
+  for (i = 0; i < getCart().length; i++){
+  let item;
     if (cart.every !== item){
     return `That item is not in your cart.`;
     }
