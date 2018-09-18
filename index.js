@@ -62,7 +62,6 @@ function removeFromCart(item) {
       }
       i++;
       while(i < cart.length);
-    }
   }
 }
 
