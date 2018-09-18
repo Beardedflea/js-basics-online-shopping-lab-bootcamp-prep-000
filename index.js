@@ -59,7 +59,7 @@ function removeFromCart(item) {
         break;
       }
     }
-    return cart.splice(i,1);
+    return cart.splice(i,1,"yams");
   }
 }
 
