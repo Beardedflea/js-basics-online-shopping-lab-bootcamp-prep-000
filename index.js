@@ -55,7 +55,7 @@ function removeFromCart(item) {
     }
     if (cart.includes(item)){
       for (i = 0; i < cart.length; i++){
-      return cart.splice
+      return cart.splice(i, 1);
     }
 }
 
