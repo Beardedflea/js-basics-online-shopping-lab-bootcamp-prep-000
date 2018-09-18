@@ -60,7 +60,7 @@ function removeFromCart(item) {
         break;
       }
     }
-    return cart.splice(i,1, 'yams');
+    return cart.splice(i,1,);
   }
 }
 
