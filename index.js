@@ -57,9 +57,10 @@ function removeFromCart(item) {
   else{
     for(i = 0; i < cart.length; i++){
       if(getCart()[i].itemName === item){
-        return updatedCart += cart.splice(i, -1);
+         updatedCart = cart.splice(i, -1);
       }
     }
+    return updatedCart;
   }
 }
 
