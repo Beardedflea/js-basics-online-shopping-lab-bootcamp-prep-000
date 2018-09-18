@@ -52,7 +52,7 @@ function removeFromCart(item){
   let badItem;
   for (i = 0; i < getCart().length; i++){
       if(getCart()[i].itemName === item){
-        badItem = getCart()[i]
+        badItem = getCart()[i];
         }
       }
     if(badItem){
