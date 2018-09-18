@@ -69,7 +69,7 @@ function placeOrder(cardNumber) {
   }
   else{
     cart.splice(-1, cart.length);
-    return  ` Your total cost is $${getCart()[i].itemName}, which will be charged to the card 83296759.`;
+    return  ` Your total cost is $${totalCost}, which will be charged to the card ${cardNumber}.`;
   }
 }
 
