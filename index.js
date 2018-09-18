@@ -52,11 +52,7 @@ function removeFromCart(item) {
     if (cart.every !== item){
     return `That item is not in your cart.`;
     }
-    do{
-      let i = 0;
-      if(getCart()[i].itemName === item){
-        return cart.splice(i);
-        }
+    if (cart.includes)
       i++;
     }
       while(i < cart.length);
