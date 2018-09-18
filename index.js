@@ -52,10 +52,9 @@ function removeFromCart(item) {
     if (cart.every !== item){
     return `That item is not in your cart.`;
     }
-    if (cart.includes)
-      i++;
+    if (cart.includes(item)){
+      return cart.splice
     }
-      while(i < cart.length);
 }
 
 function placeOrder(cardNumber) {
