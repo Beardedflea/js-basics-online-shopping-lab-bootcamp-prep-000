@@ -49,10 +49,12 @@ function total() {
 }
 
 function removeFromCart(item) {
+  let i;
     if (cart.every !== item){
     return `That item is not in your cart.`;
     }
     if (cart.includes(item)){
+      for (i = 0; i < cart.length; i++){
       return cart.splice
     }
 }
