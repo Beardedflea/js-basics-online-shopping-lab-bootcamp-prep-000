@@ -53,10 +53,10 @@ function removeFromCart(item){
   for (i = 0; i < getCart().length; i++){
       if(getCart()[i].itemName === item){
         badItem = getCart()[i]
-      if(!badItem){
-        return
+        }
       }
-      }
+    if{
+      return `That item is not in your cart.`;
     }
 }
 
