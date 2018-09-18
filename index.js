@@ -57,10 +57,10 @@ function removeFromCart(item) {
   else{
     do{
       if(getCart()[i].itemName === item){
-        
         return cart.splice(i, 1);
-      }
+        }
       i++;
+    }
       while(i < cart.length);
   }
 }
