@@ -53,11 +53,11 @@ function removeFromCart(item) {
     if (cart.every !== item){
     return `That item is not in your cart.`;
     }
-    else {
-      for (i = 0; i < getCart().length; i++){
-        if(getCart()[i].itemName === item){
-        cart.splice(i, 1);
-        return cart;
+    //else {
+      //for (i = 0; i < getCart().length; i++){
+       // if(getCart()[i].itemName === item){
+        //cart.splice(i, 1);
+        //return cart;
         }
       }
     }
