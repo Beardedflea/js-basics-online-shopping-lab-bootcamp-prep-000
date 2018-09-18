@@ -57,7 +57,6 @@ function removeFromCart(item){
       }
     if(badItem){
       cart.indexOf(badItem);
-      
       cart.splice(i,1);
       }
     else{
