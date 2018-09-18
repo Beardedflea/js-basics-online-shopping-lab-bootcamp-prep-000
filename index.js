@@ -55,12 +55,15 @@ function removeFromCart(item) {
     return `That item is not in your cart.`;
     }
   else{
-    for(i = 0; i < cart.length; i++){
+    do{
       if(getCart()[i].itemName === item){
-         updatedCart = cart.splice(i, 1);
+        cart.splice(i, 1);
+        
+        return cart;
       }
+      i++;
+      while(i < cart.length);
     }
-    return updatedCart;
   }
 }
 
